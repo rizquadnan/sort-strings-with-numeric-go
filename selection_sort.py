@@ -8,7 +8,6 @@ def selection_sort(arr) :
     swap(arr, i, min)
   return arr		
  
-#Swap two elements by index, Time O(1), Space O(1)
 def swap(arr, i, j) :
   tmp = arr[i]
   arr[i] = arr[j]
